@@ -29,6 +29,7 @@ ul {
   list-style: none;
   margin-top: 0;
   margin-bottom: 0;
+  padding: 0;
 }
 
 body {
@@ -45,14 +46,14 @@ body {
 
 .header {
   background: var(--white-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-container {
   display: flex;
   align-items: center;
   outline: 2px solid tomato;
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
 
 .navigation {
@@ -149,6 +150,7 @@ body {
 /* hero */
 
 .hero-title {
+  margin: 0;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -172,14 +174,17 @@ body {
 }
 
 .button {
+  padding: 10px 32px;
+  margin-top: 30px;
   font-size: 16px;
   line-height: 1.87;
-
   text-align: center;
   letter-spacing: 0.06em;
   border-radius: 4px;
+  border: none;
   background: #2196f3;
-  color: #ffffff;
+  color: var(--white-color);
+  cursor: pointer;
 }
 
 /* section */
@@ -202,6 +207,7 @@ body {
 
 .function-title {
   margin-bottom: 10px;
+  margin-top: 0;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -269,7 +275,7 @@ body {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
